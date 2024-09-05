@@ -7,3 +7,11 @@
 body {
   background-color: #f3eeed;
 }
+
+:root {
+  --font-size-super-heading: 96px;
+  --font-weight-super-heading: 500;
+
+  --font-size-footer-rights-text: 24px;
+  --font-weight-footer-rights-text: 500;
+}
