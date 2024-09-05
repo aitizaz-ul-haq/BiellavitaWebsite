@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-container-left {
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+}
+
+.header-container-right {
+  width: 50%;
+  text-align: right;
+  padding: 10px;
+}
+
+.cicular-button {
+  width: 60px; /* Diameter of the button */
+  height: 60px; /* Diameter of the button */
+  margin: 5px;
+  border-radius: 50%; /* Makes the button circular */
+  /* background-color: #007bff;  */
+  color: black; /* Text color */
+  border: 1px solid black; /* Removes the default border */
+  font-size: 16px; /* Text size */
+  /* display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer;  */
+  transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Hover effect */
+.cicular-button:hover {
+  background-color: black; /* Darker background color on hover */
+  color: white;
+}
