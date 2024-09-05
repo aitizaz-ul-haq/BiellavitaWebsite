@@ -13,5 +13,6 @@
 .main-heading-homepage {
   font-size: var(--font-size-super-heading);
   font-weight: var(--font-weight-super-heading);
+  color: var(--Website-black-color);
   z-index: 1; /* Above the overlay */
 }

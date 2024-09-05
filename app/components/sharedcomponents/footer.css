@@ -23,5 +23,6 @@
 .rights-line-homepage {
   font-size: var(--font-size-footer-rights-text);
   font-weight: var(--font-weight-footer-rights-text);
+  color: var(--Website-black-color);
   z-index: 1; /* Above the overlay */
 }
