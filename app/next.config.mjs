@@ -1,11 +1,10 @@
-// next.config.js
-const isProd = process.env.NODE_ENV === "production";
+import { defineConfig } from "next";
 
-module.exports = {
+export default defineConfig({
   output: "export",
   images: {
-    unoptimized: true, // GitHub Pages doesn't support optimized images
+    unoptimized: true,
   },
   basePath: "/BiellavitaWebsite", // Add your repo name here for GitHub Pages
   assetPrefix: "/BiellavitaWebsite/", // This is necessary for GitHub Pages
-};
+});
